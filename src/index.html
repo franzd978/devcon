@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Verdana, sans-serif;
+            background-color: #f0f0f0; /* Slightly darker background */
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        .social {
+            background-color: #e0e0e0; /* Darker background for social section */
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#social">Socials</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <div class="main">
+            <h1 class="head">I AM <br> FRANZ DELOS SANTOS</h1>
+            <button class="btn" onclick="window.location.href = 'nextpage.html';">Contact Me</button>
+        </div>
+    </section>
+
+   <!-- About Section -->
+    <section id="about" style="margin-left: 40px; margin-right: 40px;">
+        <h1 id="heading">ABOUT ME</h1>
+        <div id="pic">
+            <img src="fb2.png" alt="">
+            <div id="intro">
+                <h2>FRANZ DELOS SANTOS</h2>
+                <p id="aboutme">
+                    Graduate of computer science with experience working across the full-stack of software development. Looking for a role where I can grow and learn from experienced team members while drawing on project experience I have already successfully executed.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" style="margin-left: 40px; margin-right: 40px; margin-bottom: 20px;">
+        <h2 class="education-heading" style="font-size: 3rem;">EDUCATION</h2>
+        <div class="education-content" style="margin-left: 80px;">
+            <p style="font-size: 25px;"><b>Manuel S. Enverga University Foundation</b> | Lucena City</p>
+            <p style="font-size: 25px;"><i>Bachelor of Science in Computer Science</i></p>
+            <p style="font-size: 25px;">Major(s): Software Engineering</p>
+            <br>
+            <p style="font-size: 25px;margin-bottom: 10px;">Relevant Courses</p>
+            <ul style="font-size: 25px; margin-left: 50px;">
+                <li>Data Structures</li>
+                <li>Software Engineering</li>
+                <li>Database Management</li>
+                <li>Intelligent Systems</li>
+            </ul>
+        </div>
+    </section>
+
+
+    <!-- Skills Section -->
+    <section id="skills" style="margin-bottom: 20px;">
+        <h1 class="headingSk">SKILLS</h1>
+        <div class="skills-container">
+            <div class="skill" data-title="Java" data-percent="75%">
+                <img src="java.jpg" alt="Java">
+                <div class="skill-info">
+                    <h3 style="font-size: 25px;">Java</h3>
+                    <div class="percentage-bar" style="--percent-width: 75%;">
+                        <span>75%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill" data-title="Python" data-percent="80%">
+                <img src="python.png" alt="Python">
+                <div class="skill-info">
+                    <h3 style="font-size: 25px;">Python</h3>
+                    <div class="percentage-bar" style="--percent-width: 80%;">
+                        <span>80%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Section -->
+    <section id="social" class="social">
+        <h1 class="headingS" style="text-align: center;margin-top: 20px;">SOCIAL</h1>
+        <div class="social-row">
+            <div class="social-item">
+                <img src="phone.png" alt="Logo" height="30px">
+                <p style="font-size: 25px;">(+63) 937 067 3627</p>
+            </div>
+            <div class="social-item">
+                <img src="gmail.png" alt="Logo" height="30px">
+                <p style="font-size: 25px;">franzd979@gmail.com</p>
+            </div>
+            <div class="social-item">
+                <img src="in-blue-14.png" alt="Logo" height="30px">
+                <a target="_blank" href="https://www.linkedin.com/in/franz-delos-santos-146672300" style="font-size: 25px;">LinkedIn</a>
+            </div>
+            <div class="social-item">
+                <img src="github-mark.png" alt="Logo" height="30px">
+                <a target="_blank" href="https://github.com/franzd978" style="font-size: 25px;">Github</a>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
